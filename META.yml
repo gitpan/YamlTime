@@ -1,0 +1,35 @@
+---
+abstract: 'YAML based Personal Time Tracking'
+author:
+  - 'Ingy döt Net <ingy@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.01'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: YamlTime
+name: YamlTime
+no_index:
+  directory:
+    - inc
+    - share
+    - t
+    - xt
+requires:
+  DateTime: 0.70
+  DateTime::Format::Natural: 0.94
+  File::ShareDir: 1.03
+  IO::All: 0.41
+  Template::Plugin::YAMLVal: 0.10
+  Template::Toolkit::Simple: 0.13
+  Term::Prompt: 1.04
+  YAML::XS: 0.35
+  perl: 5.8.3
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01

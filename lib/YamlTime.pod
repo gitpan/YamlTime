@@ -1,0 +1,89 @@
+=encoding utf8
+
+=head1 NAME
+
+YamlTime - YAML based Personal Time Tracking
+
+=head1 SYNOPSIS
+
+    > yt help
+
+=head1 DESCRIPTION
+
+YamlTime is an application that allows you do your personal project time
+tracking from the command line. It saves your data in plain text YAML files.
+You can use a version control system (like git) to back up the data.
+
+YamlTime comes with a command line app called C<yt> that does everything.
+
+=head1 COMMANDLINE USAGE
+
+The following commands are supported.
+
+    yt                  - Show current yt status of today's tasks
+    yt help             - Get Help
+    yt init             - Create a new YamlTime store
+    yt new              - Start a new task
+    yt stop             - Stop the current task
+    yt go               - Restart the current task
+    yt edit <task>      - Edit a task's yaml file in $EDITOR
+    yt dump <task>      - Read a task file and print to STDOUT
+    yt save <task>      - Read STDIN and print to a task file
+    yt check <range>    - Check the data in the range
+    yt status <range>   - Show the current yt status
+    yt report <range> <style>
+                        - Create a report for a time period
+                          using a certain reporting style
+
+=head2 Options
+
+yt commands have the following options:
+
+=over
+
+=item --from=<date_string>
+
+Commands that need a time range, use this to set the start time. The default
+is the previous midnight. A human friendly string can be used, like: '3 days
+ago'.
+
+=item --to=<date_string>
+
+Commands that need a time range, use this to set the end time. The default
+is now.
+
+=item --tag=<tag_list>
+
+A comma separated list of tags. Matches tasks the match all the tags. You can specify more than once to combine ('or' logig) groups.
+
+=item --style=<report-style>
+
+This names a YamlTime reporting style. The default is CSV, which can be used
+as a spreadsheet.
+
+=back
+
+=head1 SEE ALSO
+
+=over
+
+=item *
+
+L<YAML>
+
+=back
+
+=head1 AUTHOR
+
+Ingy döt Net <ingy@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright (c) 2011. Ingy döt Net.
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
+See http://www.perl.com/perl/misc/Artistic.html
+
+=cut
