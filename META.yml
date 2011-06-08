@@ -32,4 +32,5 @@ requires:
   perl: 5.8.3
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+  repository: git://github.com/ingydotnet/yamltime-pm.git
+version: 0.02
