@@ -25,12 +25,14 @@ requires:
   DateTime::Format::Natural: 0.94
   File::ShareDir: 1.03
   IO::All: 0.41
+  IPC::Run: 0.89
   Template::Plugin::YAMLVal: 0.10
   Template::Toolkit::Simple: 0.13
   Term::Prompt: 1.04
+  Text::CSV_XS: 0.81
   YAML::XS: 0.35
   perl: 5.8.3
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/ingydotnet/yamltime-pm.git
-version: 0.02
+version: 0.03
