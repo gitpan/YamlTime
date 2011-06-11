@@ -37,4 +37,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/ingydotnet/yamltime-pm.git
-version: 0.04
+version: 0.05
