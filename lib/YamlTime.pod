@@ -2,7 +2,7 @@
 
 =head1 NAME
 
-YamlTime - YAML based Personal Time Tracking
+YamlTime - YAML-based Personal Time Tracking App
 
 =head1 SYNOPSIS
 
@@ -14,14 +14,19 @@ YamlTime is an application that allows you do your personal project time
 tracking from the command line. It saves your data in plain text YAML files.
 You can use a version control system (like git) to back up the data.
 
+YamlTime can supports multiple customers, multiple projects and multiple
+rates. It has reporting, spreadsheets, tagging, time/tag selection and 3rd
+party plugin modules.
+
 YamlTime comes with a command line app called C<yt> that does everything.
 
-=head1 COMMANDLINE USAGE
+=head1 COMMAND LINE USAGE
 
 The following commands are supported.
 
     yt                  - Show current yt status of today's tasks
-    yt help             - Get Help
+    yt help             - Get help
+    yt help <command>   - Get help for a specific command
     yt init             - Create a new YamlTime store
     yt new              - Start a new task
     yt stop             - Stop the current task
@@ -34,6 +39,13 @@ The following commands are supported.
     yt status <tasks>   - Show the current yt status
     yt report <tasks>   - Create a report for a time period
                           using a certain reporting style
+
+The <yt new> command will prompt you for some information. You can use tab
+completion for many of the fields. The values that you put in your config
+files are the values that are offered (and the only ones you can use).
+
+Some of the fields may be left blank. You can use C<yt edit> to fix up any
+task, later on.
 
 =head2 Options
 
