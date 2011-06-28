@@ -31,5 +31,4 @@ share/conf/refs.yaml
 share/conf/tags.yaml
 share/conf/yt.yaml
 share/task.yaml.tt
-t/none.t
 t/use_ok.t

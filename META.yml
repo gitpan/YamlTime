@@ -21,6 +21,7 @@ no_index:
     - t
     - xt
 requires:
+  Capture::Tiny: 0.11
   DateTime: 0.70
   DateTime::Format::Natural: 0.94
   File::ShareDir: 1.03
@@ -38,4 +39,4 @@ resources:
   homepage: http://github.com/ingydotnet/yamltime-pm/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/ingydotnet/yamltime-pm.git
-version: 0.07
+version: 0.08
