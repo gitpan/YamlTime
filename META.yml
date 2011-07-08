@@ -39,4 +39,4 @@ resources:
   homepage: http://github.com/ingydotnet/yamltime-pm/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/ingydotnet/yamltime-pm.git
-version: 0.08
+version: 0.09
