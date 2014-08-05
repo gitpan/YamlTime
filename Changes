@@ -1,69 +1,50 @@
----
-version: 0.11
-date:    Tue Oct 18 07:44:17 CDT 2011
-changes:
-- Make YAMLTIME_DEFAULT_COMMAND work.
----
-version: 0.10
-date:    Thu Jul 28 14:22:37 CDT 2011
-changes:
-- Load plugins from YamlTime:: namespace instead of YamlTime::Extension
-- Support $YAMLTIME_DEFAULT_COMMAND
-- Support ~/.yamltime/
----
-version: 0.09
-date:    Fri Jul  8 00:18:25 EDT 2011
-changes:
-- Add base command
-- Fix 'go' math for adding hours/mins
-- Fix 'delete' command
----
-version: 0.08
-date:    Mon Jun 27 21:41:45 EDT 2011
-changes:
-- 0.07 was broken. add test, and make it work
-- Now support YamlTime::Extension::Foo
----
-version: 0.07
-date:    Mon Jun 27 08:59:13 EDT 2011
-changes:
-- rjbs++' changes
----
-version: 0.06
-date:    Tue Jun 14 22:35:45 EST 2011
-changes:
-- Add better readline support and tab completion
----
-version: 0.05
-date:    Sat Jun 11 16:22:00 EST 2011
-changes:
-- Add tag support to ranges
-- Refactor error msgs
-- Remove $HOME/.yt as a default. You can set YAMLTIME_BASE to it.
----
-version: 0.04
-date:    Sat Jun 11 03:16:02 EST 2011
-changes:
-- Polish the help msgs
-- Refactoring
----
-version: 0.03
-date:    Fri Jun 10 01:42:52 EST 2011
-changes:
-- Finish the rest of the commands
-- Fix extra blank line in yaml files
-- Add dump action
-- Add remove action
-- Refactor default_command
-- Better error msgs
-- Check 'project' better.
----
-version: 0.02
-date:    Wed Jun  8 18:47:05 EST 2011
-changes:
-- Fixed a newline down under.
----
-version: 0.01
-date:    Wed Jun  8 18:43:36 EST 2011
-changes:
-- First Release
+0.12 Tue Aug  5 11:40:36 PDT 2014
+ - Switch to Zilla-Dist
+
+0.11 Tue Oct 18 07:44:17 CDT 2011
+ - Make YAMLTIME_DEFAULT_COMMAND work.
+
+0.10 Thu Jul 28 14:22:37 CDT 2011
+ - Load plugins from 'YamlTime::' namespace instead of YamlTime::Extension
+ - Support $YAMLTIME_DEFAULT_COMMAND
+ - Support ~/.yamltime/
+
+0.09 Fri Jul  8 00:18:25 EDT 2011
+ - Add base command
+ - Fix 'go' math for adding hours/mins
+ - Fix 'delete' command
+
+0.08 Mon Jun 27 21:41:45 EDT 2011
+ - 0.07 was broken. add test, and make it work
+ - Now support YamlTime::Extension::Foo
+
+0.07 Mon Jun 27 08:59:13 EDT 2011
+ - rjbs++' changes
+
+0.06 Tue Jun 14 22:35:45 EST 2011
+ - Add better readline support and tab completion
+
+0.05 Sat Jun 11 16:22:00 EST 2011
+ - Add tag support to ranges
+ - Refactor error msgs
+ - Remove $HOME/.yt as a default. You can set YAMLTIME_BASE to it.
+
+0.04 Sat Jun 11 03:16:02 EST 2011
+ - Polish the help msgs
+ - Refactoring
+
+0.03 Fri Jun 10 01:42:52 EST 2011
+ - Finish the rest of the commands
+ - Fix extra blank line in yaml files
+ - Add dump action
+ - Add remove action
+ - Refactor default_command
+ - Better error msgs
+ - Check 'project' better.
+
+0.02 Wed Jun  8 18:47:05 EST 2011
+ - Fixed a newline down under.
+
+0.01 Wed Jun  8 18:43:36 EST 2011
+ - First Release
+

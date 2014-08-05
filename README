@@ -2,7 +2,7 @@ NAME
     YamlTime - YAML-based Personal Time Tracking App
 
 SYNOPSIS
-        > yt help
+          > yt help
 
 DESCRIPTION
     YamlTime is an application that allows you do your personal project time
@@ -19,21 +19,21 @@ DESCRIPTION
 COMMAND LINE USAGE
     The following commands are supported.
 
-        yt                  - Show current yt status of today's tasks
-        yt help             - Get help
-        yt help <command>   - Get help for a specific command
-        yt init             - Create a new YamlTime store
-        yt new              - Start a new task
-        yt stop             - Stop the current task
-        yt go               - Restart the current task
-        yt create <task>    - Create a new task for a specific date/time
-        yt edit <task>      - Edit a task's yaml file in $EDITOR
-        yt dump <task>      - Read a task file and print to STDOUT
-        yt delete <task>    - Delete a task file
-        yt check <tasks>    - Check the data in the range for errors
-        yt status <tasks>   - Show the current yt status
-        yt report <tasks>   - Create a report for a time period
-                              using a certain reporting style
+          yt                  - Show current yt status of today's tasks
+          yt help             - Get help
+          yt help <command>   - Get help for a specific command
+          yt init             - Create a new YamlTime store
+          yt new              - Start a new task
+          yt stop             - Stop the current task
+          yt go               - Restart the current task
+          yt create <task>    - Create a new task for a specific date/time
+          yt edit <task>      - Edit a task's yaml file in $EDITOR
+          yt dump <task>      - Read a task file and print to STDOUT
+          yt delete <task>    - Delete a task file
+          yt check <tasks>    - Check the data in the range for errors
+          yt status <tasks>   - Show the current yt status
+          yt report <tasks>   - Create a report for a time period
+                                using a certain reporting style
 
     The <yt new> command will prompt you for some information. You can use
     tab completion for many of the fields. The values that you put in your
@@ -65,21 +65,16 @@ COMMAND LINE USAGE
 
 KUDOS
     Many thanks to the good people of Strategic Data in Melbourne Victoria
-    Australia, for supporting me and this project. \o/
-
-SEE ALSO
-    *   YAML
-
-    *   YamlTime::Extension
+    Australia, for supporting me and this project. o/
 
 AUTHOR
     Ingy döt Net <ingy@cpan.org>
 
-COPYRIGHT AND LICENSE
-    Copyright (c) 2011. Ingy döt Net.
+COPYRIGHT
+    Copyright 2011-2014. Ingy döt Net.
 
     This program is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.
 
-    See http://www.perl.com/perl/misc/Artistic.html
+    See <http://www.perl.com/perl/misc/Artistic.html>
 
