@@ -2,7 +2,7 @@ NAME
     YamlTime - YAML-based Personal Time Tracking App
 
 SYNOPSIS
-          > yt help
+        > yt help
 
 DESCRIPTION
     YamlTime is an application that allows you do your personal project time
@@ -19,20 +19,20 @@ DESCRIPTION
 COMMAND LINE USAGE
     The following commands are supported.
 
-          yt                  - Show current yt status of today's tasks
-          yt help             - Get help
-          yt help <command>   - Get help for a specific command
-          yt init             - Create a new YamlTime store
-          yt new              - Start a new task
-          yt stop             - Stop the current task
-          yt go               - Restart the current task
-          yt create <task>    - Create a new task for a specific date/time
-          yt edit <task>      - Edit a task's yaml file in $EDITOR
-          yt dump <task>      - Read a task file and print to STDOUT
-          yt delete <task>    - Delete a task file
-          yt check <tasks>    - Check the data in the range for errors
-          yt status <tasks>   - Show the current yt status
-          yt report <tasks>   - Create a report for a time period
+        yt                  - Show current yt status of today's tasks
+        yt help             - Get help
+        yt help <command>   - Get help for a specific command
+        yt init             - Create a new YamlTime store
+        yt new              - Start a new task
+        yt stop             - Stop the current task
+        yt go               - Restart the current task
+        yt create <task>    - Create a new task for a specific date/time
+        yt edit <task>      - Edit a task's yaml file in $EDITOR
+        yt dump <task>      - Read a task file and print to STDOUT
+        yt delete <task>    - Delete a task file
+        yt check <tasks>    - Check the data in the range for errors
+        yt status <tasks>   - Show the current yt status
+        yt report <tasks>   - Create a report for a time period
                                 using a certain reporting style
 
     The <yt new> command will prompt you for some information. You can use
@@ -46,20 +46,20 @@ COMMAND LINE USAGE
   Options
     yt commands have the following options:
 
-    --from=<date_string>
+    "--from=<date_string>"
         Commands that need a time range, use this to set the start time. The
         default is the previous midnight. A human friendly string can be
         used, like: '3 days ago'.
 
-    --to=<date_string>
+    "--to=<date_string>"
         Commands that need a time range, use this to set the end time. The
         default is now.
 
-    --tag=<tag_list>
+    "--tag=<tag_list>"
         A comma separated list of tags. Matches tasks the match all the
         tags. You can specify more than once to combine ('or' logig) groups.
 
-    --style=<report-style>
+    "--style=<report-style>"
         This names a YamlTime reporting style. The default is CSV, which can
         be used as a spreadsheet.
 
