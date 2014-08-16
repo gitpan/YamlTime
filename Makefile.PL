@@ -44,7 +44,7 @@ my %WriteMakefileArgs = (
     "Text::ParseWords" => "3.27",
     "YAML::XS" => "0.35"
   },
-  "VERSION" => "0.17",
+  "VERSION" => "0.18",
   "test" => {
     "TESTS" => "t/*.t"
   }

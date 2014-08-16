@@ -19,7 +19,6 @@ share/conf/refs.yaml
 share/conf/tags.yaml
 share/conf/yt.yaml
 share/task.yaml.tt
-t/000-compile-modules.t
 t/release-pod-syntax.t
 xt/Test.pm
 xt/add.t
